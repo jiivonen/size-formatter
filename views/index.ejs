@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>File Size Formatter</title>
+</head>
+<body>
+  <h1>File Size Formatter</h1>
+  <p>Enter a file size in bytes:</p>
+  <form action="/" method="post">
+    <input type="number" name="fileSizeInput" placeholder="Enter size in bytes" />
+    <button type="submit">Format</button>
+  </form>
+  <p id="formattedSize">Formatted Size: <%= fileSize %> </p>
+</body>
+</html>
